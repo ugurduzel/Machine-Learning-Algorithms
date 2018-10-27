@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ###
-#	Ordinary least squares Linear Regression
+#	Multivariate Least Squares Linear Regression
 #	Scikit does not implement bias term (w0 = 1)
 #	It can be added easily by self.X = np.insert(arr = data, obj = 0, values = 1)
 #	And to line 52 as return np.insert(arr = data, obj = 0, values = 1).dot(self.weights.T)
